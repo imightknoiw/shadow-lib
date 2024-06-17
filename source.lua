@@ -1,5 +1,6 @@
 local library = {}
 function play(id)
+    return -- fuck the sounds lol
     for _, v in next, workspace:GetChildren() do
         if v.Name == "GUISound" then
             v:Destroy()
